@@ -1,0 +1,331 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with 2.4 GHz connectivity.",
+    "price": 25.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Gaming Laptop",
+    "description": "High-performance gaming laptop with 16GB RAM and RTX 3060.",
+    "price": 1199.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Keyboard",
+    "description": "Sleek wireless keyboard with long battery life.",
+    "price": 45.5,
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone Case",
+    "description": "Durable silicone case for iPhone 12/13.",
+    "price": 15.99,
+    "category": "Accessories"
+  },
+  {
+    "id": 5,
+    "name": "Bluetooth Headphones",
+    "description": "Noise-canceling Bluetooth headphones with superior sound quality.",
+    "price": 79.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 6,
+    "name": "LED Desk Lamp",
+    "description": "Adjustable LED desk lamp with touch controls.",
+    "price": 35.0,
+    "category": "Furniture"
+  },
+  {
+    "id": 7,
+    "name": "Coffee Maker",
+    "description": "Automatic coffee maker with multiple brew settings.",
+    "price": 89.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 8,
+    "name": "Portable Power Bank",
+    "description": "10,000mAh portable power bank for charging on the go.",
+    "price": 22.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "name": "Leather Wallet",
+    "description": "Premium leather wallet with card slots and a coin pouch.",
+    "price": 35.99,
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Smartwatch",
+    "description": "Water-resistant smartwatch with fitness tracking features.",
+    "price": 129.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 11,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with multiple brushing modes.",
+    "price": 49.99,
+    "category": "Health & Beauty"
+  },
+  {
+    "id": 12,
+    "name": "Wristband Fitness Tracker",
+    "description": "Fitness tracker wristband with heart rate monitoring.",
+    "price": 39.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 13,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker with 360-degree sound.",
+    "price": 65.0,
+    "category": "Electronics"
+  },
+  {
+    "id": 14,
+    "name": "Air Purifier",
+    "description": "Air purifier with HEPA filtration for home and office use.",
+    "price": 199.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 15,
+    "name": "Ergonomic Chair",
+    "description": "Comfortable ergonomic chair with adjustable armrests and lumbar support.",
+    "price": 149.99,
+    "category": "Furniture"
+  },
+  {
+    "id": 16,
+    "name": "Digital Camera",
+    "description": "High-quality digital camera with 4K video recording.",
+    "price": 550.0,
+    "category": "Electronics"
+  },
+  {
+    "id": 17,
+    "name": "Wireless Charger",
+    "description": "Fast wireless charging pad for smartphones.",
+    "price": 29.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 18,
+    "name": "Smart Home Thermostat",
+    "description": "Smart thermostat with Wi-Fi connectivity for remote control.",
+    "price": 120.0,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 19,
+    "name": "Instant Pot",
+    "description": "All-in-one pressure cooker, slow cooker, and rice cooker.",
+    "price": 79.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 20,
+    "name": "Exercise Mat",
+    "description": "Non-slip exercise mat for yoga and fitness routines.",
+    "price": 19.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 21,
+    "name": "Electric Kettle",
+    "description": "1.7L electric kettle with rapid boiling feature.",
+    "price": 29.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 22,
+    "name": "Camping Tent",
+    "description": "4-person camping tent with water-resistant material.",
+    "price": 119.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 23,
+    "name": "Yoga Blocks",
+    "description": "Set of two foam yoga blocks for improved balance.",
+    "price": 14.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 24,
+    "name": "Portable Grill",
+    "description": "Compact portable grill for picnics and camping.",
+    "price": 49.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 25,
+    "name": "Collapsible Water Bottle",
+    "description": "Collapsible silicone water bottle, perfect for travel.",
+    "price": 12.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 26,
+    "name": "Electric Shaver",
+    "description": "Men's electric shaver with multi-directional head for close shave.",
+    "price": 39.99,
+    "category": "Health & Beauty"
+  },
+  {
+    "id": 27,
+    "name": "Makeup Brush Set",
+    "description": "Set of professional makeup brushes with synthetic bristles.",
+    "price": 24.99,
+    "category": "Health & Beauty"
+  },
+  {
+    "id": 28,
+    "name": "Facial Cleansing Brush",
+    "description": "Rechargeable facial cleansing brush with multiple modes.",
+    "price": 29.99,
+    "category": "Health & Beauty"
+  },
+  {
+    "id": 29,
+    "name": "Hair Dryer",
+    "description": "Professional hair dryer with ionic technology for smooth hair.",
+    "price": 45.99,
+    "category": "Health & Beauty"
+  },
+  {
+    "id": 30,
+    "name": "Nail Polish Set",
+    "description": "Set of 10 vibrant nail polish colors.",
+    "price": 19.99,
+    "category": "Health & Beauty"
+  },
+  {
+    "id": 31,
+    "name": "Sports Watch",
+    "description": "Water-resistant sports watch with heart rate monitor.",
+    "price": 69.99,
+    "category": "Electronics"
+  },
+  {
+    "id": 32,
+    "name": "Mini Fridge",
+    "description": "Compact mini fridge for dorm rooms or offices.",
+    "price": 89.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 33,
+    "name": "Pillow",
+    "description": "Memory foam pillow for neck and back support.",
+    "price": 25.99,
+    "category": "Furniture"
+  },
+  {
+    "id": 34,
+    "name": "Throw Blanket",
+    "description": "Soft throw blanket made from high-quality cotton.",
+    "price": 35.99,
+    "category": "Furniture"
+  },
+  {
+    "id": 35,
+    "name": "Laptop Stand",
+    "description": "Adjustable laptop stand with cooling fan.",
+    "price": 39.99,
+    "category": "Furniture"
+  },
+  {
+    "id": 36,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated stainless steel water bottle for hot and cold drinks.",
+    "price": 19.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 37,
+    "name": "Table Fan",
+    "description": "Compact table fan with adjustable speed settings.",
+    "price": 29.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 38,
+    "name": "Smart Light Bulb",
+    "description": "Smart light bulb with adjustable color temperature and brightness.",
+    "price": 18.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 39,
+    "name": "Camping Chair",
+    "description": "Foldable camping chair with cup holder.",
+    "price": 24.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 40,
+    "name": "Food Processor",
+    "description": "Multi-functional food processor for chopping, slicing, and blending.",
+    "price": 89.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 41,
+    "name": "Bicycle Helmet",
+    "description": "Safety helmet for biking with adjustable straps.",
+    "price": 29.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 42,
+    "name": "Treadmill",
+    "description": "Electric treadmill with adjustable incline and speed settings.",
+    "price": 499.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 43,
+    "name": "Air Fryer",
+    "description": "Healthy air fryer for low-fat cooking.",
+    "price": 79.99,
+    "category": "Home Appliances"
+  },
+  {
+    "id": 44,
+    "name": "Bike Pump",
+    "description": "Portable bike pump with pressure gauge.",
+    "price": 19.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 45,
+    "name": "Canoe Paddle",
+    "description": "Durable canoe paddle with ergonomic handle.",
+    "price": 49.99,
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 46,
+    "name": "Backpack",
+    "description": "Durable travel backpack with multiple compartments.",
+    "price": 55.99,
+    "category": "Accessories"
+  },
+  {
+    "id": 47,
+    "name": "Luggage Set",
+    "description": "3-piece luggage set with TSA locks and expandable compartments.",
+    "price": 199.99,
+    "category": "Accessories"
+  }
+]
