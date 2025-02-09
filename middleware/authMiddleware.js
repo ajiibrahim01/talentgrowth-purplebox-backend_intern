@@ -12,7 +12,7 @@ const authMiddleware = async (req, res, next) => {
       throw error;
     }
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, "secret123");
     const loggedUser = await user.findById(decoded.userId);
 
     if (!loggedUser) {
@@ -24,17 +24,8 @@ const authMiddleware = async (req, res, next) => {
     req.user = loggedUser;
     next();
   } catch (error) {
-    // Handle JWT specific errors
-    if (error.name === "TokenExpiredError") {
-      error.message = "Token expired";
-      error.statusCode = HttpStatus.UNAUTHORIZED;
-    }
-    if (error.name === "JsonWebTokenError") {
-      error.message = "Invalid token";
-      error.statusCode = HttpStatus.UNAUTHORIZED;
-    }
-
-    error.statusCode = error.statusCode || HttpStatus.INTERNAL_SERVER_ERROR;
+    error.statusCode = error.statusCode || HttpStatus.UNAUTHORIZED;
+    error.message = error.message || "Invalid or expired token";
     next(error);
   }
 };

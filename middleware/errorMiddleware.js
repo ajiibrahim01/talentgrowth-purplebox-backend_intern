@@ -5,7 +5,6 @@ export const errorHandler = (err, req, res, next) => {
   console.error(err.stack);
   if (err.name === "UnauthorizedError") {
     return res.status(HttpStatus.UNAUTHORIZED).json({
-      success: false,
       message: err.message || "Authentication failed",
     });
   }
@@ -13,7 +12,6 @@ export const errorHandler = (err, req, res, next) => {
   // Handle validation errors
   if (err.errors && Array.isArray(err.errors)) {
     return res.status(HttpStatus.BAD_REQUEST).json({
-      success: false,
       errors: err.errors,
     });
   }
@@ -23,7 +21,6 @@ export const errorHandler = (err, req, res, next) => {
   const message = err.message || HttpMessage[statusCode];
 
   res.status(statusCode).json({
-    success: false,
     message,
   });
 };
