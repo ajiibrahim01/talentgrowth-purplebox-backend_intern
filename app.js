@@ -11,7 +11,7 @@ const jwtMiddleware = expressjwt({
   secret: "secret123",
   algorithms: ["HS256"],
 }).unless({
-  path: ["/auth/login", "/auth/register", { url: "/items", methods: ["GET"] }],
+  path: ["/auth/login", "/auth/register", { url: "/items", methods: ["GET"] }, { url: "/items/:id", methods: ["GET"] }],
 });
 
 app.use(jwtMiddleware);
